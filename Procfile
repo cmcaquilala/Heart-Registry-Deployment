@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn 'hregistry.wsgi'
+web: python manage.py migrate patients && python manage.py migrate accounts && python manage.py migrate hregistry && gunicorn 'hregistry.wsgi'
