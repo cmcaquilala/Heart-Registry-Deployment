@@ -54,7 +54,7 @@ INSTALLED_APPS = [
 AUTH_USER_MODEL = 'accounts.AuthUser'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-CSRF_TRUSTED_ORIGINS = ["web-production-af04.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-af04.up.railway.app"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
